@@ -55,9 +55,6 @@ setup(
     packages=get_packages(),
 
     install_requires=[
-        'graphql-core==2.0',
-        'django-filter==1.1.0',
-        'djangorestframework>=3.6.0'
     ],
     extras_require={
         'date': [
